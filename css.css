@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Warna latar belakang transparan */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden; /* Menghilangkan overflow jika video lebih besar dari container */
+}
+
+video {
+    width: 100%; /* Video mengisi lebar container */
+    height: auto; /* Menjaga aspek rasio */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang kotak transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+}
+
+.transparent-box h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.outer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transparent-box {
+    flex-grow: 1; /* Memperluas kotak transparan untuk mengisi ruang kosong */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.left-feature,
+.right-feature {
+    width: 100px; /* Atur lebar fitur kiri dan kanan sesuai kebutuhan */
+    height: 100px; /* Atur tinggi fitur kiri dan kanan sesuai kebutuhan */
+    background-color: #f0f0f0;
+}
+
+.left-feature,
+.right-feature {
+    width: 100px; /* Atur lebar fitur kiri dan kanan sesuai kebutuhan */
+    height: 100px; /* Atur tinggi fitur kiri dan kanan sesuai kebutuhan */
+    background-color: #f0f0f0;
+    border-radius: 5px; /* Tambahkan sudut bulat pada fitur */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; /* Warna teks untuk fitur */
+    font-weight: bold; /* Tebal teks untuk fitur */
+}
+
+.right-feature {
+    text-align: right; /* Geser teks ke kanan pada fitur kanan */
+}
+
+.right-feature:before {
+    content: "Fitur Kanan"; /* Tambahkan teks "Fitur Kanan" di fitur kanan */
+}
+
+.left-feature:before {
+    content: "Fitur Kiri"; /* Tambahkan teks "Fitur Kiri" di fitur kiri */
+}
+
+.transparent-box {
+    flex-grow: 1; /* Memperluas kotak transparan untuk mengisi ruang kosong */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative; /* Memungkinkan posisi absolut untuk fitur tambahan */
+}
+
+.left-feature {
+    position: absolute; /* Posisi absolut untuk fitur kiri */
+    left: -120px; /* Geser ke kiri untuk memisahkan dari kotak transparan */
+}
+
+.right-feature {
+    position: absolute; /* Posisi absolut untuk fitur kanan */
+    right: -120px; /* Geser ke kanan untuk memisahkan dari kotak transparan */
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px; /* Sesuaikan dengan kebutuhan */
+    margin: 0 auto; /* Untuk memusatkan video */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Menyesuaikan latar belakang dengan ukuran layar */
+    background-repeat: no-repeat; /* Menghindari pengulangan latar belakang */
+    background-position: center; /* Memusatkan latar belakang */
+}
+
+p {
+    font: bold;
+}
